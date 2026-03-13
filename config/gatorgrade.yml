@@ -1,0 +1,46 @@
+# perform checks on practice midterm files
+
+# check that the practice test document exists and has been worked through
+- writing/practice_test.md:
+    - description: Ensure that writing/practice_test.md file exists.
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in writing/practice_test.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Your Name Here' prompt in writing/practice_test.md
+      check: MatchFileFragment
+      options:
+        fragment: "Add Your Name Here"
+        count: 0
+        exact: true
+
+# check the reflection document for various characteristics
+- writing/reflection.md:
+    - description: Ensure that writing/reflection.md file exists.
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in writing/reflection.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Delete the 'Add Your Name Here' prompt in writing/reflection.md
+      check: MatchFileFragment
+      options:
+        fragment: "Add Your Name Here"
+        count: 0
+        exact: true
+    # - description: Write a minimum number of meaningful words (>100) in the reflection
+    #   check: CountFileWords
+    #   options:
+    #     count: 100
+    #     exact: false
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (5) in repository
+  check: CountCommits
+  options:
+    count: 5
