@@ -20,7 +20,7 @@ b) 2, 5, 8
 c) 2, 4, 6, 8, 10  
 d) 2, 9
 
-**Your answer:** TODO
+**Your answer:** b
 
 ---
 
@@ -31,7 +31,7 @@ b) `for i in range(8, 4):`
 c) `for i in range(8, 3, -1):`  
 d) `for i in range(4, 8, -1):`
 
-**Your answer:** TODO
+**Your answer:** c
 
 ---
 
@@ -48,7 +48,7 @@ b) 4
 c) 8  
 d) 16
 
-**Your answer:** TODO
+**Your answer:** c
 
 ---
 
@@ -65,7 +65,7 @@ b) 27
 c) Error  
 d) (6, 27)
 
-**Your answer:** TODO
+**Your answer:** d
 
 ---
 
@@ -76,7 +76,7 @@ b) Exhaustive enumeration
 c) Newton's method  
 d) Bisection method
 
-**Your answer:** TODO
+**Your answer:** b
 
 ---
 
