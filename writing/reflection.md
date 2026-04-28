@@ -4,7 +4,7 @@ Name: Md. Nehal Uddin Rafin
 Date: March 16, 2026
 
 After completing the practice test, please reflect on your experience by
-answering the questions below. Replace each `TODO` with a thoughtful response
+answering the questions below. Replace each with a thoughtful response
 (a few sentences each). Your responses help you consolidate what you learned
 and identify areas to review before the real midterm.
 
